@@ -87,7 +87,10 @@ Verified from sources:
 7. **Customer base with built-in visuals**: golf courses, stadiums, sports complexes, parks departments, snow & ice crews.
 8. **Seasonal calendar**: irrigation install/winterization (fall, now), snow & ice (winter), spring equipment prep.
 
-Not verified (searched, nothing found): open houses, demo days, customer education or irrigation classes, RMGCSA/ALCC sponsorships, community/charity work. Tagged posts by others: unreachable. **Ask John about these on the call.** They're probably happening and probably not being filmed.
+**First-hand (Tyler on site, 2026-10-08):**
+9. **Equipment manager education event: sponsored and hosted by LL Johnson.** Organized with Tyler's client, a CTEM (Certified Turf Equipment Manager) who is building a Colorado EM community. LL Johnson paid for everything and hosted at their facility, and the day included a tour of the Broncos stadium. Shows active support for EMs: education, community, relationships. *Tyler's call: use it as proof of the care, don't make this event the story.* Search turned up no public trace of it, so it's a true hidden asset.
+
+Not verified (searched, nothing found): open houses, demo days, irrigation classes, RMGCSA/ALCC sponsorships, community/charity work. Tagged posts by others: unreachable. **Ask John about these on the call.** The 10/08 event suggests more of this is happening and not being filmed.
 
 ---
 

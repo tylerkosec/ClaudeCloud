@@ -1,55 +1,63 @@
-# LL Johnson: Content Mission & Pillars (draft, 2026-10-09)
+# LL Johnson: Content Mission & Pillars (v2, 2026-10-09)
 
-Built on: `wiki/sources/research-lljohnson-2026-10-09.md`. Performance data is not verified yet, so the pillar mix below is a starting hypothesis. Re-weight it after the first 60 days of numbers.
+Built on: `wiki/sources/research-lljohnson-2026-10-09.md`, plus Tyler's first-hand notes from the EM education event (2026-10-08).
+Performance data is not verified yet, so the mix below is a starting hypothesis. Re-weight it after 60 days of numbers.
+
+**v2 change:** the equipment manager (EM) is now the hero of everything. v1 was "the people behind the machines" in general. Tyler's field notes showed the sharper truth: LL Johnson's real relationship is with EMs, and they show up for them.
 
 ## Mission
 
-**Help the people who keep Colorado's courses, fields, parks and properties running, and show them the LL Johnson people behind every machine, so LL Johnson is their first call.**
+**Put the equipment manager in the spotlight and show that LL Johnson is in their corner.**
 
-Short version / series umbrella: **"The people behind the machines."**
+Two audiences, one story:
+1. **EMs:** you're seen, what you do matters, and LL Johnson has your back (parts, service, education, community).
+2. **Everyone else** (superintendents, GMs, members, golfers, fans): the superintendent gets the credit, but the EM makes it run. They do the math that makes the grass cut right.
 
-Why this framing:
-- LL Johnson's own YouTube "About" already says it: practical videos to help landscape contractors, golf courses, sports turf and parks departments, municipalities and snow & ice pros run their operations more efficiently. This mission extends John's own words to every channel. It's easier for him to say yes to his own idea.
-- Customers aren't buying a mower. They're buying **uptime**: a part on the shelf, a tech who answers, someone who knows irrigation. That's the distributor's whole value, and it's the part nobody films.
-- Since the May 2025 Oakcreek sale, customers have an unspoken question: *is it still the same people?* Showing the people answers it every week.
+Series umbrella: **"Who Makes It Run."**
 
-## The filter (every post must pass)
+### Why this is the right mission (not just a nice one)
+- **EMs are who calls the distributor.** The parts counter, the service bay and the tech hotline are EM relationships. Making EMs the hero puts LL Johnson's daily customer at the center. That's the same person whose loyalty decides where the parts and service dollars go.
+- **EMs shape fleet decisions.** The superintendent and GM sign, but the EM's opinion of the equipment and the dealer's support carries weight when the fleet comes up for replacement.
+- **Nobody else owns this.** Toro corporate talks to superintendents and buyers. Competing dealers post product. No one in Colorado is the home of the EM. The role is getting more professional (CTEM certification exists, and Tyler's CTEM client is building the community), so it's a movement LL Johnson can stand behind early.
+- **It's already true.** LL Johnson sponsored and hosted the EM education event on 2026-10-08 (covered all costs, held at LL Johnson, included the Broncos stadium tour). The content documents what they already do. It doesn't invent a position.
+- **It passes the filter automatically:** *could only LL Johnson post this?* A distributor that shows up for EMs can. A brochure can't.
 
-**"Could only LL Johnson post this?"** If Toro corporate or any other dealer could post it unchanged, it fails.
+**Do not** make the 10/08 event itself the story (Tyler's call). Use it as proof of the care, not as a recap post.
 
-**Not a pillar: product brochures.** Toro makes those better than LL Johnson ever will. Product only shows up *inside* a pillar: on the bench, on a Colorado course, in someone's hands, or tied to the season.
+## The 4 pillars (EM as the throughline)
 
-## The 4 pillars
+| # | Pillar | What it shows | EM angle | Share |
+|---|---|---|---|---|
+| 1 | **The Bench** (craft) | The skill: grinding, reel setup, height-of-cut, clip rate, hydraulics, winterizing | Makes the invisible work visible. EMs share it because it's *their* craft done right | ~35% |
+| 2 | **Who Makes It Run** (EM spotlights) | EMs at Colorado courses, stadiums, parks, in their shops | Feel seen. The public learns who actually makes it run | ~30% |
+| 3 | **In Your Corner** (LL Johnson shows up) | Parts runs, a tech on site before a tournament, education events, the counter crew, 50 years / same crew | Proof that LL Johnson saves the day. The care, shown | ~20% |
+| 4 | **This Week in the Shop** (season) | What Colorado EMs are doing right now: blowouts, snow & ice prep, spring startup, new Toro tech | Timely and useful, and it gives people a reason to call this week | ~15% |
 
-| # | Pillar | Job it does | Who it's for | Proof it's real | Share |
-|---|---|---|---|---|---|
-| 1 | **In the Shop** (keep it running) | Proves uptime: service and know-how | Equipment managers, techs, contractor owners | Service Solutions Center (Toro, Dingo, Ventrac). Their own bedknife-grinding TikTok (2023-01-07) | ~35% |
-| 2 | **On the Ground** (where it works) | Customer proof, plus reach through customers' reshares | Superintendents, sports turf/parks managers, contractors | Golf, stadium, municipal and contractor customer base. Their autonomous-mower post | ~30% |
-| 3 | **Same Crew, 50 Years** (the people) | Trust and continuity after the sale. Helps hiring techs too | Every buyer, plus job seekers | Founded 1976. 22 Toro awards. 4 branches. John ~25 yrs in | ~20% |
-| 4 | **Right Now in Colorado** (season calls) | A reason to act this week, which is what makes the phone ring | Everyone, timed to the calendar | Fall blowouts, snow & ice, spring startup, Toro launches (Turf Pro 200, June 2026) | ~15% |
+At 3 posts/week (~12/month): Bench 4, Spotlights 4, In Your Corner 2–3, This Week 1–2.
 
-At 3 posts/week (~12/month): Shop 4, On the Ground 4, People 2–3, Season 1–2.
+## Signature series (the formats that carry the mission)
 
-### Example posts per pillar
-1. **In the Shop:** bedknife grind start to finish (30s, no talking, satisfying). "One fix in 60 seconds" with a tech. Winterizing a Ventrac. What a pre-season reel setup actually checks.
-2. **On the Ground:** a Turf Pro running a Colorado course at dawn, with the superintendent on camera. A stadium field before game day. A parks crew with a Dingo. An irrigation central-control install.
-3. **Same Crew:** "50 Years, 50 Faces" (one person, 30s: years here, best day on the job). Branch tours (Fort Collins → Pueblo). The 2018 Best in Irrigation crew today. "New owner, same people."
-4. **Right Now:** "Blowout season: book now" (Oct). Snow & ice gear readiness (Nov). Spring startup checklist (Mar). New-model first look, filmed at LL Johnson, not reposted from Toro.
+1. **"My EM"**: the superintendent gives the credit away. 30–45s: the super on camera says what their EM does that nobody sees, then we cut to the EM at work. It flips the script, and both of them share it, so it reaches superintendents, members and EMs at once. Bonus: superintendents are buyers too, and this makes them look generous.
+2. **"The Math Behind the Cut"**: public-facing education. One number per episode: clip rate (ground speed vs. reel speed × blades), height of cut measured in thousandths of an inch, why the bedknife angle matters. Hook: *"Ever wonder why these greens roll so fast? Meet the person who did the math."* Built for golfers and fans, and EMs will love that someone finally explained it.
+3. **"Saved the Day"**: true stories of LL Johnson coming through (the Saturday part, the tech who drove out before an event), told by the EM, not by LL Johnson. The customer telling it is what makes it believable. Pillar 3.
+4. **"EM of the Month" (Colorado)**: open nominations. It builds a community LL Johnson hosts, gives an endless supply of spotlights, and every winner's network sees it. Coordinate with Tyler's CTEM client's community effort; LL Johnson amplifies it, it doesn't take it over.
 
-### Platform fit
-- **LinkedIn:** pillars 2 + 3. Superintendents, parks directors and contractor owners live here. Fix the page name first.
-- **Instagram / Facebook:** pillars 1 + 2 as Reels; 4 as Stories. Merge the extra FB pages.
-- **TikTok:** pillar 1. Process videos (grinding, reels) are what that platform rewards.
-- **YouTube:** longer pillar 1 how-tos. That matches the channel's stated purpose.
+## Platform fit
+- **LinkedIn:** "My EM", "Saved the Day", education events. Superintendents, GMs, parks directors and EMs building careers are here. Fix the page name first (still "Pattlen Enterprises").
+- **Instagram / Facebook:** Bench and Spotlights as Reels; This Week as Stories. Merge the extra FB pages.
+- **TikTok:** "The Math Behind the Cut" and Bench process videos. Satisfying craft plus "huh, I didn't know that" is the public-facing reach play.
+- **YouTube:** longer Bench how-tos. That matches the channel's stated purpose of practical videos.
 
 ## How we'll know it's working (no lead promises)
-- **Saves and shares** on In the Shop posts. These mean people kept the know-how.
-- **Customer tags and reshares** on On the Ground posts. That's reach into peer audiences.
-- **LinkedIn follower growth from target titles** (superintendent, parks, fleet, contractor owner).
-- **A counter tally:** branch staff tick a box when a customer says "saw it on Instagram/LinkedIn."
+- **Shares and tags by EMs and superintendents** (the clearest sign they feel seen).
+- **Saves** on Bench and Math posts (they kept the know-how).
+- **Inbound nominations** for EM of the Month.
+- **LinkedIn follower growth** from EM, superintendent and parks titles.
+- **A counter tally:** branch staff tick a box when someone mentions seeing a post.
 - Median engagement per post vs. the Rival IQ 2025 benchmark, once the baseline is pulled.
 
 ## Confirm with John
-- Which buyer matters most in 2027: golf fleet renewals, contractor counter traffic, or irrigation? The answer re-weights the mix.
-- Who on staff is comfortable on camera? Which customers would host a shoot?
-- Is Oakcreek planning any brand changes? Make sure we don't build on a name that's about to change.
+- Is "the home of the Colorado EM" a position LL Johnson (and Oakcreek) wants to own publicly?
+- How should LL Johnson support your CTEM client's EM community: as sponsor, as host, or both? Who gets credit where?
+- Which customer EMs and superintendents would go on camera first?
+- Can the counter and techs flag "saved the day" moments as they happen?
