@@ -68,7 +68,21 @@ All counts are as indexed by search, capture date unknown, retrieved 2026-10-09.
 
 ## 4. What wins and what flops
 
-**Not verified.** No per-post performance was reachable. Known topics they post (from indexed content only, performance unknown):
+**Update 2026-10-10: Tyler flagged that TikTok is their big channel.** Follower count still not verified (profile blocked here). Ask Tyler or John for it. Per-video numbers as shown on each video's own TikTok page (search index, capture date unknown). Post dates decoded from video IDs:
+
+| Post | Date | Likes | Comments | Read |
+|---|---|---|---|---|
+| Toro Dingo TXL 2000 reveal (ProGreen Expo 2026) | 2026-02-05 | **2,060** | 47 | Winner: new machine in action |
+| Toro GeoLink autonomous fairway mower | 2025-06-18 | **1,219** | 64 | Winner: new tech, golf |
+| ProGreen Expo 2025 move-in day | 2025-01-28 | **97** | n/a | Flop: event logistics, no machine in action |
+| Toro PROLINE autonomous mower (setup + operation) | unknown | ~7,102 (unconfirmed) | ~379 | Attribution on a TikTok "discover" page. Verify before using |
+| Toro PROLINE autonomous mower (intro) | unknown | ~2,461 (unconfirmed) | ~201 | Same caveat |
+
+Other indexed posts (no numbers): Dingo High-Torque Auger ("extremely satisfying", 2025), first-time operators on a Dingo TX 1000 + Ultra Buggy (2024), Anglemaster bedknife grinding (2023-01-07).
+
+**Pattern (n=3 verified, too small for a rule):** new machines doing something visible (autonomous, Dingo) beat event and booth logistics. Engagement rate can't be computed without the follower count. **Pitch implication:** people already watch the machines. Next, put the people who run them (EMs, techs) in the frame.
+
+Earlier note: known topics they post (from indexed content only):
 - Shop/service: bedknife grinding on the Bernhard Anglemaster 4100 (TikTok, 2023-01-07).
 - New tech: Toro autonomous mowers for golf (TikTok, date unknown). Toro launched Turf Pro 300/500 + Range Pro 100 at GCSAA 2025 and the Turf Pro 200 in June 2026.
 - Product showcase: turf equipment and irrigation (IG bio).
