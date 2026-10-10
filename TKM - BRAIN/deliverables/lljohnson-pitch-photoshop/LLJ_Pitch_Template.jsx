@@ -310,11 +310,11 @@ app.bringToFront();
         photo("Cover", 0, 0, 1920, 1080);
         scrim("Scrim (gradient, double-click to edit)", DARK, [[0, 95], [36, 86], [60, 30], [76, 0], [100, 0]]);
         rect("Accent bar", 0, 0, 24, 1080, ACCENT);
-        eyebrow("Eyebrow", "A content plan for LL Johnson Distributing", 128, 233, 1500, ACCENT);
-        text("Title", "Who makes\rit run.", 128, 307, 1100, 380, { f: "OSW", s: 180, ld: 180, c: LIGHT, caps: true });
-        text("Subtitle", "A month-by-month plan for LL Johnson's channels. I shoot it and post it. You keep the final say.",
-            128, 707, 920, 180, { f: "SANS", s: 40, ld: 54, c: BODY_D });
-        text("Footer", "Prepared for John Knott Jr.  \u00B7  Tyler Kosec Media  \u00B7  October 2026", 128, 986, 1100, 36,
+        eyebrow("Eyebrow", "LL Johnson \u00D7 Tyler Kosec Media", 128, 260, 1500, ACCENT);
+        text("Title", "Who makes\rit run.", 128, 334, 1100, 380, { f: "OSW", s: 180, ld: 180, c: LIGHT, caps: true });
+        text("Subtitle", "A content plan for LL Johnson. I shoot it, edit it and post it. You approve it.",
+            128, 734, 920, 120, { f: "SANS", s: 40, ld: 54, c: BODY_D });
+        text("Footer", "For John Knott Jr.  \u00B7  October 2026", 128, 986, 1100, 36,
             { f: "SANS", s: 24, ld: 30, c: BODY_D });
         saveSlide(d, "01-cover");
     }
@@ -324,15 +324,14 @@ app.bringToFront();
         bg(LIGHT);
         photo("Right photo", 1180, 0, 740, 1080);
         rect("OPTIONAL caption box (turn on with the caption)", 1212, 946, 636, 70, DARK, 82, true);
-        text("OPTIONAL caption (edit, then turn on)", "Caption: where and when this was shot", 1232, 962, 600, 40,
+        text("OPTIONAL caption (edit, then turn on)", "Where and when this was shot", 1232, 962, 600, 40,
             { f: "SANS", s: 24, ld: 30, c: LIGHT, hidden: true });
-        eyebrow("Eyebrow", "What I noticed", 128, 147, 960, ACCENT_DK);
-        text("Headline 1", "The superintendent gets the credit.", 128, 217, 960, 175, { f: "OSW", s: 76, ld: 84, c: DARK, caps: true });
-        text("Headline 2", "The equipment manager makes it run.", 128, 385, 960, 175, { f: "OSW", s: 76, ld: 84, c: ACCENT_DK, caps: true });
-        text("Body", "Every stripe on a field is somebody's math. Across Colorado, when a machine goes down the week of a tournament, that's the person who calls LL Johnson.",
-            128, 589, 960, 210, { f: "SANS", s: 34, ld: 48, c: BODY_L });
-        text("Closing line", "I've seen firsthand how LL Johnson shows up for that person. Most of it never gets filmed.",
-            128, 817, 960, 100, { f: "SANSSB", s: 30, ld: 42, c: DARK });
+        text("Headline 1", "Supers get the credit.", 128, 248, 960, 90, { f: "OSW", s: 76, ld: 84, c: DARK, caps: true });
+        text("Headline 2", "Equipment managers keep it running.", 128, 332, 960, 175, { f: "OSW", s: 76, ld: 84, c: ACCENT_DK, caps: true });
+        text("Body", "Every stripe on a field is somebody's math. When a mower goes down before a tournament, the EM is the one calling LL Johnson.",
+            128, 536, 960, 160, { f: "SANS", s: 34, ld: 48, c: BODY_L });
+        text("Closing line", "I've seen how you show up for them. Most of it never gets filmed.",
+            128, 716, 960, 100, { f: "SANSSB", s: 30, ld: 42, c: DARK });
         text("Footer", "LL Johnson \u00D7 Tyler Kosec Media", 128, 986, 760, 36, { f: "SANS", s: 24, ld: 30, c: BODY_L });
         text("Page number", "02", 940, 986, 148, 36, { f: "SANS", s: 24, ld: 30, c: BODY_L, j: "R" });
         saveSlide(d, "02-insight");
@@ -340,44 +339,35 @@ app.bringToFront();
 
     function statRow(prefix, num, lab, x, y, numColor, labColor, labH, hidden) {
         text(prefix + " number", num, x, y, 200, 76, { f: "OSW", s: 60, ld: 66, c: numColor, hidden: hidden });
-        text(prefix + " label", lab, x + 220, y, 504, labH || 84, { f: "SANS", s: 28, ld: 38, c: labColor, hidden: hidden });
+        text(prefix + " label", lab, x + 220, y + 4, 504, labH || 84, { f: "SANS", s: 28, ld: 38, c: labColor, hidden: hidden });
     }
 
     function slideGap() {
         var d = newSlide("03 TikTok");
         bg(LIGHT2);
-        heading("Headline 1", "People already watch your machines.", 128, 128, 1664, DARK);
-        heading("Headline 2", "Now show who runs them.", 128, 208, 1664, ACCENT_DK);
-        rect("Left card", 128, 332, 812, 608, DARK);
-        rect("Right card", 980, 332, 812, 608, LIGHT);
-        label("Left card label", "What's working: TikTok", 172, 376, 724, ACCENT);
-        statRow("Row 1", "2,000+", "likes on the Toro Dingo TXL 2000 at ProGreen Expo (Feb 2026)", 172, 440, ACCENT, LIGHT);
-        statRow("Row 2", "1,200+", "likes on the GeoLink autonomous fairway mower (Jun 2025)", 172, 544, ACCENT, LIGHT);
-        statRow("OPTIONAL Row 3 (fill in, then turn on)", "[#]", "TikTok followers", 172, 648, ACCENT, LIGHT, 84, true);
-        text("Left closing line", "Machines in action do best so far. The audience is there.", 172, 760, 724, 90,
-            { f: "SANS", s: 28, ld: 39, c: BODY_D });
-        label("Right card label", "Where it can go next", 1024, 376, 724, ACCENT_DK);
-        statRow("Row 4", "<100", "LinkedIn followers. The page still carries the Pattlen name from before the sale.", 1024, 440, DARK, BODY_L, 124);
-        statRow("Row 5", "2+", "Facebook pages under the LL Johnson name", 1024, 578, DARK, BODY_L);
-        statRow("Row 6", "50", "years in 2026, and 22+ Toro awards. A story worth telling bigger.", 1024, 682, DARK, BODY_L, 124);
-        text("Right closing line", "Same audience, more channels. It just needs more hands.", 1024, 826, 724, 90,
-            { f: "SANS", s: 28, ld: 39, c: BODY_L });
-        footer("03", BODY_L, "Public counts as found Oct 9, 2026; live counts may be higher. Award count as of 2018.");
+        heading("Headline", "People already watch your machines.", 128, 128, 1664, DARK);
+        rect("Left card", 128, 256, 812, 440, DARK);
+        rect("Right card", 980, 256, 812, 440, LIGHT);
+        label("Left card label", "TikTok", 172, 300, 724, ACCENT);
+        statRow("Row 1", "2,000+", "likes: Dingo TXL 2000 at ProGreen (Feb 2026)", 172, 360, ACCENT, LIGHT);
+        statRow("Row 2", "1,200+", "likes: GeoLink autonomous fairway mower (June 2025)", 172, 464, ACCENT, LIGHT);
+        statRow("OPTIONAL Row 3 (fill in, then turn on)", "[#]", "TikTok followers", 172, 568, ACCENT, LIGHT, 84, true);
+        label("Right card label", "Room to grow", 1024, 300, 724, ACCENT_DK);
+        statRow("Row 4", "<100", "LinkedIn followers, still under the Pattlen name", 1024, 360, DARK, BODY_L);
+        statRow("Row 5", "2+", "Facebook pages for LL Johnson", 1024, 464, DARK, BODY_L);
+        statRow("Row 6", "50", "years in business this year", 1024, 568, DARK, BODY_L);
+        text("Next line", "Next: put the people running those machines on camera.", 128, 744, 1664, 60,
+            { f: "SANSSB", s: 40, ld: 52, c: ACCENT_DK });
+        footer("03", BODY_L, "Public counts, Oct 9, 2026.");
         saveSlide(d, "03-tiktok");
     }
 
     function slideMission() {
         var d = newSlide("04 Mission");
         bg(ACCENT);
-        eyebrow("Eyebrow", "The mission", 128, 158, 1664, DARK);
-        text("Mission", "Put the equipment manager in the spotlight.\rShow that LL\u00A0Johnson is in their corner.",
-            128, 248, 1664, 490, { f: "OSW", s: 110, ld: 116, c: DARK, caps: true });
-        rect("Rule left", 128, 768, 800, 4, DARK);
-        rect("Rule right", 992, 768, 800, 4, DARK);
-        text("Label left", "For equipment managers", 128, 796, 800, 36, { f: "SANSB", s: 26, ld: 32, c: BROWN, tr: 115, caps: true });
-        text("Label right", "For everyone else", 992, 796, 800, 36, { f: "SANSB", s: 26, ld: 32, c: BROWN, tr: 115, caps: true });
-        text("Statement left", "You're seen. You're backed.", 128, 840, 800, 60, { f: "SANSSB", s: 40, ld: 52, c: DARK });
-        text("Statement right", "This is who makes it run.", 992, 840, 800, 60, { f: "SANSSB", s: 40, ld: 52, c: DARK });
+        eyebrow("Eyebrow", "The mission", 128, 227, 1664, DARK);
+        text("Mission", "Make the equipment manager the hero.\rShow LL\u00A0Johnson has their back.",
+            128, 317, 1664, 520, { f: "OSW", s: 120, ld: 126, c: DARK, caps: true });
         footer("04", DARK, null);
         saveSlide(d, "04-mission");
     }
@@ -385,25 +375,24 @@ app.bringToFront();
     function slidePillars() {
         var d = newSlide("05 Pillars");
         bg(LIGHT);
-        heading("Headline", "Four kinds of posts. One story.", 128, 128, 1664, DARK);
+        heading("Headline", "What we post", 128, 128, 1664, DARK);
         var P = [
-            ["01", "The Bench", "The craft: grinding, reel setup, Dingo and Ventrac checks, winterizing.", "About 4 a month"],
-            ["02", "Spotlights", "Equipment managers and techs at Colorado courses, fields and parks.", "About 4 a month"],
-            ["03", "In Your Corner", "LL Johnson showing up: parts runs, techs on site, education.", "2\u20133 a month"],
-            ["04", "This Week in the Shop", "What Colorado crews are doing now: irrigation blowouts, snow and ice prep, new Toro machines.", "1\u20132 a month"]
+            ["The Bench", "Shop work. Grinding, reel setup, Dingo and Ventrac service.", "About 4 a month"],
+            ["Spotlights", "EMs and techs at Colorado courses, fields and parks.", "About 4 a month"],
+            ["In Your Corner", "LL Johnson coming through. Parts runs, techs on site, training.", "2\u20133 a month"],
+            ["This Week", "What crews are doing now. Blowouts, snow prep, new Toro gear.", "1\u20132 a month"]
         ];
         for (var i = 0; i < P.length; i++) {
             var x = 128 + i * 424;
-            var n = "Pillar " + P[i][0];
-            rect(n + " card", x, 256, 392, 470, LIGHT2);
+            var n = "Pillar " + (i + 1);
+            rect(n + " card", x, 256, 392, 420, LIGHT2);
             rect(n + " top bar", x, 256, 392, 8, ACCENT);
-            text(n + " number", P[i][0], x + 32, 296, 328, 32, { f: "SANSB", s: 24, ld: 30, c: ACCENT_DK });
-            text(n + " title", P[i][1], x + 32, 336, 328, 104, { f: "OSW", s: 44, ld: 48, c: DARK, caps: true });
-            text(n + " text", P[i][2], x + 32, 446, 328, 210, { f: "SANS", s: 28, ld: 38, c: BODY_L });
-            text(n + " count", P[i][3], x + 32, 676, 328, 32, { f: "SANSB", s: 24, ld: 30, c: DARK });
+            text(n + " title", P[i][0], x + 32, 300, 328, 60, { f: "OSW", s: 44, ld: 48, c: DARK, caps: true });
+            text(n + " text", P[i][1], x + 32, 372, 328, 200, { f: "SANS", s: 28, ld: 38, c: BODY_L });
+            text(n + " count", P[i][2], x + 32, 620, 328, 32, { f: "SANSB", s: 24, ld: 30, c: DARK });
         }
-        label("Test label", "Every post passes one test", 128, 774, 1664, ACCENT_DK);
-        text("Test question", "Could only LL Johnson post this?", 128, 812, 1664, 60, { f: "SANSSB", s: 40, ld: 52, c: DARK });
+        label("Rule label", "The rule", 128, 732, 1664, ACCENT_DK);
+        text("Rule", "If another dealer could post it, we don't.", 128, 770, 1664, 60, { f: "SANSSB", s: 40, ld: 52, c: DARK });
         footer("05", BODY_L);
         saveSlide(d, "05-pillars");
     }
@@ -411,21 +400,20 @@ app.bringToFront();
     function slideSeries() {
         var d = newSlide("06 Series");
         bg(DARK);
-        heading("Headline", "Four series that carry it.", 128, 128, 1664, LIGHT);
+        heading("Headline", "Four series", 128, 128, 1664, LIGHT);
         var S = [
-            ["Spotlights", "My EM", "A superintendent gives the credit away: what their equipment manager does that nobody sees."],
-            ["The Bench", "The Math Behind the Cut", "Why the greens roll fast, one number at a time. Made for golfers and fans, so the EMs and supers behind it share it."],
-            ["In Your Corner", "Saved the Day", "Customers tell the story of LL Johnson coming through. Their words, not ours."],
-            ["Spotlights", "EM of the Month", "Colorado nominates its own. LL Johnson backs the EM community that's already forming."]
+            ["My EM", "A super tells you what their EM does that nobody sees."],
+            ["The Math Behind the Cut", "Why the greens roll fast, one number at a time."],
+            ["Saved the Day", "Customers tell how LL Johnson came through."],
+            ["EM of the Month", "Colorado nominates. LL Johnson backs it."]
         ];
         for (var i = 0; i < S.length; i++) {
             var x = (i % 2 === 0) ? 128 : 976;
-            var y = (i < 2) ? 256 : 556;
+            var y = (i < 2) ? 256 : 540;
             var n = "Series " + (i + 1);
-            rect(n + " card", x, y, 816, 270, DARK2);
-            label(n + " pillar tag", S[i][0], x + 40, y + 36, 736, BODY_D);
-            text(n + " title", S[i][1], x + 40, y + 74, 736, 62, { f: "OSW", s: 48, ld: 53, c: ACCENT, caps: true });
-            text(n + " text", S[i][2], x + 40, y + 138, 736, 124, { f: "SANS", s: 28, ld: 39, c: BODY_D });
+            rect(n + " card", x, y, 816, 252, DARK2);
+            text(n + " title", S[i][0], x + 40, y + 56, 736, 62, { f: "OSW", s: 48, ld: 53, c: ACCENT, caps: true });
+            text(n + " text", S[i][1], x + 40, y + 128, 736, 90, { f: "SANS", s: 30, ld: 42, c: BODY_D });
         }
         footer("06", BODY_D);
         saveSlide(d, "06-series");
@@ -438,10 +426,9 @@ app.bringToFront();
         photo("Big photo", 128, 244, 1080, 510);
         photo("Top right photo", 1232, 244, 560, 243);
         photo("Bottom right photo", 1232, 511, 560, 243);
-        text("Caption", "Stills from my Toro shoots. This is the eye I'd bring to LL Johnson every month.",
-            128, 790, 1200, 96, { f: "SANS", s: 30, ld: 42, c: BODY_D });
+        text("Caption", "Stills from my Toro shoots.", 128, 812, 1200, 50, { f: "SANS", s: 30, ld: 42, c: BODY_D });
         rect("Button", 1420, 800, 372, 68, ACCENT);
-        text("Button text", "See my work \u2192", 1420, 818, 372, 40, { f: "SANSB", s: 30, ld: 36, c: DARK, j: "C" });
+        text("Button text", "Watch the reel \u2192", 1420, 818, 372, 40, { f: "SANSB", s: 30, ld: 36, c: DARK, j: "C" });
         footer("07", BODY_D);
         saveSlide(d, "07-proof");
     }
@@ -449,11 +436,11 @@ app.bringToFront();
     function slideMonth() {
         var d = newSlide("08 Month");
         bg(LIGHT2);
-        heading("Headline", "You keep the voice. I add the hands.", 128, 128, 1664, DARK);
+        heading("Headline", "You keep the voice. I do the work.", 128, 128, 1664, DARK);
         var M = [
-            ["12", "finished posts a month, each cut to fit Instagram, Facebook, LinkedIn and TikTok"],
-            ["2", "shoot days a month at branches, courses and fields"],
-            ["1", "monthly report: what worked and what's next"]
+            ["12", "posts a month, cut for Instagram, Facebook, LinkedIn and TikTok"],
+            ["2", "shoot days a month"],
+            ["1", "report a month: what worked, what's next"]
         ];
         for (var i = 0; i < M.length; i++) {
             var x = 128 + i * 565;
@@ -462,16 +449,14 @@ app.bringToFront();
             text(n + " number", M[i][0], x, 276, 533, 112, { f: "OSW", s: 96, ld: 106, c: ACCENT_DK });
             text(n + " label", M[i][1], x, 392, 533, 124, { f: "SANS", s: 28, ld: 38, c: BODY_L });
         }
-        rect("I handle box", 128, 546, 816, 200, LIGHT);
-        rect("You keep box", 976, 546, 816, 200, DARK);
-        label("I handle label", "I handle", 168, 586, 736, ACCENT_DK);
-        label("You keep label", "You keep", 1016, 586, 736, ACCENT);
-        text("I handle text", "Planning, shooting, editing, captions, posting and reporting.", 168, 628, 736, 96,
+        rect("I handle box", 128, 556, 816, 210, LIGHT);
+        rect("You box", 976, 556, 816, 210, DARK);
+        label("I handle label", "I handle", 168, 596, 736, ACCENT_DK);
+        label("You label", "You", 1016, 596, 736, ACCENT);
+        text("I handle text", "Planning, shooting, editing, captions, posting.", 168, 638, 736, 96,
             { f: "SANS", s: 30, ld: 42, c: DARK });
-        text("You keep text", "Final say on every post, the customer relationships, and the voice.", 1016, 628, 736, 96,
+        text("You text", "Approve the plan, open a few doors, OK each post. About an hour a week.", 1016, 638, 736, 96,
             { f: "SANS", s: 30, ld: 42, c: LIGHT });
-        text("From you", "From you: about an hour a week. Approve the month's plan, open a door or two, and give a yes or no on each post.",
-            128, 782, 1664, 96, { f: "SANSSB", s: 30, ld: 42, c: DARK });
         footer("08", BODY_L);
         saveSlide(d, "08-month");
     }
@@ -479,25 +464,25 @@ app.bringToFront();
     function slideFirst90() {
         var d = newSlide("09 First 90 days");
         bg(LIGHT);
-        heading("Headline", "The first 90 days.", 128, 128, 1664, DARK);
+        heading("Headline", "The first 90 days", 128, 128, 1664, DARK);
         var C = [
-            ["Days 1\u201330", "Get set up together", "Agree the first month's plan. Take a baseline of every channel. Talk through the LinkedIn name and extra Facebook pages with whoever owns that call. First shoot day."],
-            ["Days 31\u201360", "Launch the series", "The Bench goes weekly. My EM every other week. Open the first EM of the Month nominations."],
-            ["Days 61\u201390", "Read it, double down", "Compare against day one. Keep what works. Build the spring startup calendar."]
+            ["Month 1", "Set up", "Plan the month, baseline every channel, first shoot. Sort out the LinkedIn name and extra Facebook pages with whoever owns them."],
+            ["Month 2", "Launch", "The Bench every week. My EM every other week. First EM of the Month."],
+            ["Month 3", "Double down", "Compare to month one. Keep what works. Plan spring startup."]
         ];
         for (var i = 0; i < C.length; i++) {
             var x = 128 + i * 565;
-            var n = "Phase " + (i + 1);
+            var n = "Month " + (i + 1);
             rect(n + " top bar", x, 252, 533, 8, ACCENT);
-            rect(n + " card", x, 260, 533, 460, LIGHT2);
+            rect(n + " card", x, 260, 533, 420, LIGHT2);
             label(n + " label", C[i][0], x + 36, 296, 461, ACCENT_DK);
-            text(n + " title", C[i][1], x + 36, 336, 461, 104, { f: "OSW", s: 44, ld: 48, c: DARK, caps: true });
-            text(n + " text", C[i][2], x + 36, 444, 461, 250, { f: "SANS", s: 28, ld: 39, c: BODY_L });
+            text(n + " title", C[i][1], x + 36, 336, 461, 60, { f: "OSW", s: 44, ld: 48, c: DARK, caps: true });
+            text(n + " text", C[i][2], x + 36, 404, 461, 250, { f: "SANS", s: 28, ld: 39, c: BODY_L });
         }
-        rect("Measure rule", 128, 752, 6, 124, DARK);
-        label("Measure label", "How we'll know it's working", 162, 756, 1630, ACCENT_DK);
-        text("Measure text", "Shares and tags from EMs and superintendents  \u00B7  saves on how-to posts  \u00B7  EM of the Month nominations  \u00B7  a simple tally at the counter: \"saw it online.\"",
-            162, 794, 1630, 96, { f: "SANS", s: 30, ld: 42, c: DARK });
+        rect("Measure rule", 128, 716, 6, 124, DARK);
+        label("Measure label", "How we'll know", 162, 720, 1630, ACCENT_DK);
+        text("Measure text", "EMs and supers sharing and tagging, saves on how-to posts, nominations, and the counter hearing \"saw it online.\"",
+            162, 758, 1630, 96, { f: "SANS", s: 30, ld: 42, c: DARK });
         footer("09", BODY_L);
         saveSlide(d, "09-first-90-days");
     }
@@ -508,14 +493,13 @@ app.bringToFront();
         photo("Background photo", 0, 0, 1920, 1080);
         scrim("Scrim (gradient, double-click to edit)", DARK, [[0, 95], [50, 88], [100, 55]]);
         rect("Accent bar", 0, 0, 24, 1080, ACCENT);
-        eyebrow("Eyebrow", "Next step", 128, 175, 1500, ACCENT);
-        text("Headline", "Let's pick the\rfirst three shoots.", 128, 249, 1600, 300, { f: "OSW", s: 140, ld: 143, c: LIGHT, caps: true });
-        text("Subhead", "One 20-minute call. You bring the people and the stories. I'll bring the plan and the monthly cost, so you have something to share internally.",
-            128, 575, 1300, 175, { f: "SANS", s: 40, ld: 54, c: BODY_D });
-        text("Reply line", "Reply to this email with a day next week that works.", 128, 765, 1300, 50, { f: "SANSSB", s: 32, ld: 40, c: LIGHT });
-        rect("Rule", 128, 833, 1300, 2, LINE_D);
-        text("Name", "Tyler Kosec  \u00B7  Tyler Kosec Media  \u00B7  Loveland, CO", 128, 859, 1300, 44, { f: "SANSB", s: 32, ld: 40, c: LIGHT });
-        text("Contact (add your phone)", "tylerkosecmedia@gmail.com  \u00B7  [phone]", 128, 905, 1300, 42, { f: "SANS", s: 30, ld: 38, c: BODY_D });
+        text("Headline", "Let's pick the\rfirst three shoots.", 128, 227, 1600, 300, { f: "OSW", s: 140, ld: 143, c: LIGHT, caps: true });
+        text("Subhead", "20-minute call. I'll bring the plan and the monthly price.",
+            128, 553, 1300, 60, { f: "SANS", s: 40, ld: 54, c: BODY_D });
+        text("Reply line", "Reply with a day next week that works.", 128, 631, 1300, 50, { f: "SANSSB", s: 32, ld: 40, c: LIGHT });
+        rect("Rule", 128, 711, 1300, 2, LINE_D);
+        text("Name", "Tyler Kosec  \u00B7  Tyler Kosec Media  \u00B7  Loveland, CO", 128, 737, 1300, 44, { f: "SANSB", s: 32, ld: 40, c: LIGHT });
+        text("Contact (add your phone)", "tylerkosecmedia@gmail.com  \u00B7  [phone]", 128, 783, 1300, 42, { f: "SANS", s: 30, ld: 38, c: BODY_D });
         saveSlide(d, "10-next-step");
     }
 

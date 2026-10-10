@@ -41,14 +41,14 @@ EDITING
 - After editing, re-make the PDF with File > Automate > PDF Presentation.
 
 FILL THESE IN BEFORE YOU SEND
-- Slide 10: your phone number (the layer "Contact (add your phone)").
+- Slide 10: your phone number (layer "Contact (add your phone)").
 - Slide 3: check each number on your phone first (TikTok likes, LinkedIn followers,
-  Facebook pages). The counts came from search results, not the live pages.
-  There's a hidden layer "OPTIONAL Row 3" for your TikTok follower count: type it in, then turn the layer on.
-- Slide 2: optional hidden caption for the photo. Edit it, then turn it on.
-- Slide 7: the caption says "Stills from my Toro shoots." Change it if that's not what the photos are.
+  Facebook pages). They came from search results, not the live pages.
+  Hidden layer "OPTIONAL Row 3" is for your TikTok follower count: type it in, then turn it on.
+- Slide 2: optional hidden photo caption. Edit it, then turn it on.
+- Slide 7: caption says "Stills from my Toro shoots." Change it if that's not what the photos are.
 - Slide 8: confirm "2 shoot days a month" and "about an hour a week" match your offer.
 
 NOTE
-The "See my work" button on slide 7 is a picture of a button. Photoshop PDFs don't carry links,
+The "Watch the reel" button on slide 7 is a picture of a button. Photoshop PDFs don't carry links,
 so paste the reel link into your email instead.
